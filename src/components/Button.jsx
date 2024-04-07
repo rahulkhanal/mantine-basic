@@ -4,7 +4,8 @@ import { Button } from "@mantine/core";
 const ButtonComp = () => {
   return (
     <div>
-      <Button size="sm"> Button with custom default gradient</Button>
+      {/* If No color are given then it takes primary color */}
+      <Button size="sm" color="bright-pink.0"> Button with custom default gradient</Button>
     </div>
   );
 };
